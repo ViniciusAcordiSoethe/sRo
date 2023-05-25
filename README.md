@@ -24,6 +24,8 @@ Desviar de elementos desconhecidos (obstáculos), retornar um percurso sem saíd
 
 [https://www.obr.org.br/manuais/OBR2023_MP_ManualRegrasSIMEstadual.pdf](https://www.obr.org.br/manuais/OBR2023_MP_ManualRegrasSIMEstadual.pdf)
 
+https://www.obr.org.br/manuais/OBR2023_MP_ManualRegrasRegionalEstadual.pdf
+
 ### Simulador sBotics - Vídeos Curtos
 
 [Tutorial Simulador sBotics para a OBR: parte 1](https://www.youtube.com/watch?v=4kZXRPvhTt4)
