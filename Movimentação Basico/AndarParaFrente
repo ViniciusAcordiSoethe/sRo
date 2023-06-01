@@ -1,0 +1,6 @@
+inicio
+TravarMotor("Nome do Motor",falso)
+TravarMotor("Nome do Motor",falso)
+Motor("Nome do Motor", 100)
+Motor("Nome do Motor", 100)
+fim
