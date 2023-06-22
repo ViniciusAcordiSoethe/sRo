@@ -1,0 +1,54 @@
+inicio
+
+TravarMotor("r",  falso)
+TravarMotor("l",  falso)
+
+enquanto(verdadeiro) farei {
+	Esperar(50)
+
+	se((Luz("lc") > 100  e Luz("rc") > 100)) entao {
+		Motor("l", 300)
+		Motor("r", 300)
+	}	
+	senao se (Luz("lc") < 75  e Luz("rc") > 100) entao {
+		Motor("l", 0-50)
+		Motor("r", 0+150)
+	}
+
+
+TravarMotor("r",  falso)
+
+TravarMotor("l",  falso)
+
+
+enquanto(verdadeiro) farei {
+
+	Esperar(50)
+
+
+	se((Luz("lc") > 100  e Luz("rc") > 100)) entao {
+
+		Motor("l", 100)
+
+		Motor("r", 100)
+
+	}	
+
+	senao se (Luz("lc") < 75  e Luz("rc") > 100) entao {
+
+		Motor("l", 0-50)
+
+		Motor("r", 0+150)
+
+	}
+
+	senao {
+
+	Motor("l", 0+150)
+
+	Motor("r", 0-100)
+
+	}
+ }
+}
+fim
